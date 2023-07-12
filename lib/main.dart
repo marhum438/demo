@@ -1,15 +1,15 @@
 import "package:flutter/material.dart";
 import "package:project2/ContactUs.dart";
-import "package:project2/contact1.dart";
+import 'package:project2/privacyscreen.dart';
 import "package:project2/demo.dart";
-import "package:project2/demo_class.dart";
 
 
-import "package:project2/task2.dart";
-import "package:project2/task5.dart";
 
-import "task3.dart";
-import "task4.dart";
+import 'package:project2/settingscreen.dart';
+import 'package:project2/favoritescreen.dart';
+
+import 'profilesetting.dart';
+import 'profilescreen.dart';
 import 'HomeScreen.dart';
 
 main() {
@@ -23,14 +23,14 @@ class MyClass extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-          // home: Demo_Class(),
-          // home: ContactUs()
-         //  home: task2(),
-        //   home:task3(),
-            //  home:task4(),
-            //  home:task5(),
-          //   home:HomeScreen(),
-          home:contact1(),
+          
+         home:Demo(),
+        //  home: HomeScreen(),
+        //  home:privacyscreen(),
+        //  home:favoritescreen(),
+        //  home:profilescreen(),
+        //  home:profilesetting(),
+        //  home:ContactUs(),
     
        
   

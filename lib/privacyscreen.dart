@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class contact1 extends StatelessWidget {
-  const contact1({super.key});
+class privacyscreen extends StatelessWidget {
+  const privacyscreen({super.key});
 
   @override
   Widget build(BuildContext context) {

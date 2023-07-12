@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project2/demo.dart';
-import 'package:project2/task2.dart';
+import 'package:project2/settingscreen.dart';
 import 'package:project2/task5.dart';
 
 class HomeScreen extends StatelessWidget {

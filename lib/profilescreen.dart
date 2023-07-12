@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class task4 extends StatelessWidget {
-  const task4({super.key});
+class profilescreen extends StatelessWidget {
+  const profilescreen({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 
 import 'package:project2/ContactUs.dart';
-import 'package:project2/task3.dart';
-import 'package:project2/task4.dart';
+import 'package:project2/profilesetting.dart';
+import 'package:project2/profilescreen.dart';
 
-class task2 extends StatelessWidget {
-  const task2({super.key});
+class settingscreen extends StatelessWidget {
+  const settingscreen({super.key});
 
   @override
   Widget build(BuildContext context) {
