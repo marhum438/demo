@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:project2/demo.dart';
-import 'package:project2/task2.dart';
-import 'package:project2/task5.dart';
+import 'package:project2/settingscreen.dart';
+
+import 'package:project2/favorite_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -333,7 +334,7 @@ class HomeScreen extends StatelessWidget {
                               Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => task5()));
+                                      builder: (context) => favoriteScreen()));
                             },
                       child:feild2(Icons.favorite_border_outlined, "Favorite",  Color(0xff9B9C9E)),
                     ),
@@ -342,7 +343,7 @@ class HomeScreen extends StatelessWidget {
                               Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => task2()));
+                                      builder: (context) => SettingScreen()));
                             },
                       child: feild2(Icons.person_2_outlined, "Prfile",  Color(0xff9B9C9E)),
                     ),

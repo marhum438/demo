@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 
 import 'package:project2/ContactUs.dart';
-import 'package:project2/task3.dart';
-import 'package:project2/task4.dart';
+import 'package:project2/profile_setting.dart';
+import 'package:project2/profile_screen.dart';
 
-class task2 extends StatelessWidget {
-  const task2({super.key});
+class SettingScreen extends StatelessWidget {
+  const SettingScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -169,7 +169,7 @@ class task2 extends StatelessWidget {
                               Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => task4()));
+                                      builder: (context) => ProfileSetting()));
                             },
                       child:feild(Icons.send,"Profile Setting", Colors.black)
                     )
@@ -233,7 +233,7 @@ class task2 extends StatelessWidget {
                               Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => task3()));
+                                      builder: (context) => ProfileScreen()));
                             },
                    child: Container(
                     height: 20,

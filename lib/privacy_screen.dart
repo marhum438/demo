@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class contact1 extends StatelessWidget {
-  const contact1({super.key});
+class PrivacyScreen extends StatelessWidget {
+  const PrivacyScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -173,7 +173,7 @@ class contact1 extends StatelessWidget {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text("PHONE"),
+                              Text("PHONE"),  
                               Container(
                                 height: 30,
                                 child: TextField(
@@ -181,7 +181,7 @@ class contact1 extends StatelessWidget {
                                     hintText: "3xx xxxxxxx",
                                     border: InputBorder.none,
                                     prefixIcon: Container(
-                                      width: 200,
+                                      width: 100,
                                       child: Row(
                                         children: [
                                           Icon(Icons.flag),
@@ -609,7 +609,7 @@ class contact1 extends StatelessWidget {
                     SizedBox(height: 19,),
                     Row(
                       children: [
-                        Icon(Icons.facebook_outlined,color: Colors.blue,size: 35,),
+                        Icon(Icons.facebook_outlined,color: Colors.blue,size: 45,),
                         SizedBox(width: 12,),
                         CircleAvatar(foregroundImage: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXEkdA5TZbGBBUocieXLmpkpgJJP405xbXZInLi0aR7g&s",),),
                           SizedBox(width: 12,),
