@@ -28,6 +28,7 @@ class MyClass extends StatelessWidget {
       // home: PrivacyScreen(),
       //home: ProfileScreen(),
       //home: ProfileSetting(),
+    //  home: SettingScreen(),
        home:newtask(),
       //  home:myprofile(),
     );
