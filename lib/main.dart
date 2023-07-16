@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project2/ContactUs.dart';
 import 'package:project2/HomeScreen.dart';
+import 'package:project2/basicinfo.dart';
 import 'package:project2/demo.dart';
 import 'package:project2/favorite_screen.dart';
 import 'package:project2/increment.dart';
@@ -28,14 +29,14 @@ class MyApp extends StatelessWidget {
      // home:Demo(),
     //    home:favoriteScreen(),
         // home:HomeScreen(),
-         home:increment(),
+       //  home:increment(),
           //  home:myprofile(),
           //  home:newtask(),
             // home:PrivacyScreen(),
             //  home:ProfileScreen(),
             //   home:ProfileSetting(),
               //  home:SettingScreen(),
-
+               home:basicinfo(),
     );
   }
 }
