@@ -29,14 +29,14 @@ class MyApp extends StatelessWidget {
      // home:Demo(),
     //    home:favoriteScreen(),
         // home:HomeScreen(),
-       //  home:increment(),
+         home:increment(),
           //  home:myprofile(),
           //  home:newtask(),
             // home:PrivacyScreen(),
             //  home:ProfileScreen(),
             //   home:ProfileSetting(),
               //  home:SettingScreen(),
-               home:basicinfo(),
+              // home:basicinfo(),
     );
   }
 }
