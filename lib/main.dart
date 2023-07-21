@@ -15,9 +15,7 @@ import 'package:project2/profile_screen.dart';
 import 'package:project2/profile_setting.dart';
 import 'package:project2/settingscreen.dart';
 
-
-void main()
-{
+void main() {
   runApp(MyApp());
 }
 
@@ -29,20 +27,21 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       // home: ContactUs(),
-     // home:Demo(),
-    //    home:favoriteScreen(),
-        // home:HomeScreen(),
-       //  home:increment(),
-          //  home:myprofile(),
-          //  home:newtask(),
-            // home:PrivacyScreen(),
-            //  home:ProfileScreen(),
-            //   home:ProfileSetting(),
-              //  home:SettingScreen(),
-              //  /home:basicinfo(),
-              // home:Add(),
-              // home:addworkhour(),
-              home: assets(),
+      // home: Demo(),
+      // home: favoriteScreen(),
+      // home: HomeScreen(),
+      // home: increment(),
+      // home: myprofile(),
+      // home: newtask(),
+      // home: basicinfo(),
+      // home: Add(),
+      // home: addworkhour(),
+      // home: assets(),
+      // home: PrivacyScreen(),
+      // home: ProfileScreen(),
+      // home: ProfileSetting(),
+      // home: SettingScreen(),
+
     );
   }
 }

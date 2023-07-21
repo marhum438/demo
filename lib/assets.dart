@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class assets extends StatelessWidget {
-  const assets ({super.key});
+  const assets({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -45,46 +45,50 @@ class assets extends StatelessWidget {
               ),
               TextField(
                 decoration: InputDecoration(
-                  enabledBorder: OutlineInputBorder(borderSide: BorderSide(color:Color.fromARGB(255, 238, 234, 234))),
+                  enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(
+                          color: Color.fromARGB(255, 238, 234, 234))),
                   labelText: "       Enter Assets name",
                   border: InputBorder.none,
-                  
-                  
                 ),
               ),
-              SizedBox(height: 25,),
+              SizedBox(
+                height: 25,
+              ),
               Row(
                 children: [
                   Icon(Icons.currency_exchange_rounded),
-                  SizedBox(width: 15,),
+                  SizedBox(
+                    width: 15,
+                  ),
                   Text("Billable"),
                   Spacer(),
-                   Switch(
+                  Switch(
                     activeColor: Colors.blue,
-  value: true,
-  onChanged: (bool newValue) {
-  
-  },
-)
+                    value: true,
+                    onChanged: (bool newValue) {},
+                  )
                 ],
               ),
-              SizedBox(height: 20,),
-                 Row(
+              SizedBox(
+                height: 20,
+              ),
+              Row(
                 children: [
                   Icon(Icons.public),
-                  SizedBox(width: 15,),
+                  SizedBox(
+                    width: 15,
+                  ),
                   Text("Public"),
                   Spacer(),
                   Switch(
                     inactiveThumbColor: Colors.black,
-  value: false,
-  onChanged: (bool newValue) {
-  
-  },
-)
+                    value: false,
+                    onChanged: (bool newValue) {},
+                  )
                 ],
               ),
-               SizedBox(
+              SizedBox(
                 height: 100,
               ),
               Container(
@@ -99,9 +103,6 @@ class assets extends StatelessWidget {
                   style: TextStyle(color: Colors.white, fontSize: 19),
                 )),
               )
-
-           
-
-                ])));
+            ])));
   }
 }
