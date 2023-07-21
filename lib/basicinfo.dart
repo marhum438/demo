@@ -292,7 +292,7 @@ class basicinfo extends StatelessWidget {
                       ),
                       Divider(),
                       SizedBox(
-                        height: 25,
+                        height: 9,
                       ),
                       Container(
                           height: 50,
