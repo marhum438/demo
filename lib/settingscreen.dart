@@ -166,10 +166,10 @@ class settingscreen extends StatelessWidget {
                   
                     child:InkWell(
                        onTap: () {
-                              Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (context) => task4()));
+                              // Navigator.push(
+                              //     context,
+                              //     MaterialPageRoute(
+                              //         builder: (context) => task4()));
                             },
                       child:feild(Icons.send,"Profile Setting", Colors.black)
                     )
@@ -230,10 +230,10 @@ class settingscreen extends StatelessWidget {
                  SizedBox(height: 12,),
                  InkWell(
                     onTap: () {
-                              Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (context) => task3()));
+                              // Navigator.push(
+                              //     context,
+                              //     MaterialPageRoute(
+                              //         builder: (context) => task3()));
                             },
                    child: Container(
                     height: 20,

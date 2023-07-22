@@ -2,6 +2,8 @@ import "package:flutter/material.dart";
 import "package:project2/ContactUs.dart";
 import 'package:project2/privacyscreen.dart';
 import "package:project2/demo.dart";
+import 'package:project2/screen1.dart';
+import 'package:project2/screen2.dart';
 
 
 
@@ -24,7 +26,7 @@ class MyClass extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
           
-         home:Demo(),
+        // home:Demo(),
         //  home: HomeScreen(),
         //  home:privacyscreen(),
         //  home:favoritescreen(),
@@ -32,7 +34,7 @@ class MyClass extends StatelessWidget {
         //  home:profilesetting(),
         //  home:ContactUs(),
     
-       
+       home: Screen2(),
   
    
    

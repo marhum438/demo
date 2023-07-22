@@ -330,19 +330,21 @@ class HomeScreen extends StatelessWidget {
                    feild2(Icons.search_off_outlined, "Serach",  Color(0xff9B9C9E)),
                     InkWell(
                        onTap: () {
-                              Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (context) => task5()));
+                              // Navigator.push(
+                              //     context,
+                              //     MaterialPageRoute(
+                              //         builder: (context) => task5()
+                              //         ));
                             },
                       child:feild2(Icons.favorite_border_outlined, "Favorite",  Color(0xff9B9C9E)),
                     ),
                     InkWell(
                        onTap: () {
-                              Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (context) => task2()));
+                              // Navigator.push(
+                              //     context,
+                              //     MaterialPageRoute(
+                                     // builder: (context) => task2()
+                                   //   ));
                             },
                       child: feild2(Icons.person_2_outlined, "Prfile",  Color(0xff9B9C9E)),
                     ),
