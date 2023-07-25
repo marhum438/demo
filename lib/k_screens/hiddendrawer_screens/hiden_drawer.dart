@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/hiddendrawer_screens/pages/home_page.dart';
-import 'package:flutter_application_1/hiddendrawer_screens/pages/setting.dart';
 import 'package:hidden_drawer_menu/hidden_drawer_menu.dart';
+import 'package:hidden_drawer_menu/model/item_hidden_menu.dart';
+import 'package:hidden_drawer_menu/model/screen_hidden_drawer.dart';
+import 'package:project2/k_screens/hiddendrawer_screens/pages/home_page.dart';
+import 'package:project2/k_screens/hiddendrawer_screens/pages/setting.dart';
 
 class Hiddendrawer extends StatefulWidget {
   const Hiddendrawer({super.key});
@@ -38,7 +40,7 @@ final myfontstyle = TextStyle(
 
   Widget build(BuildContext context) {
     return HiddenDrawerMenu(
-      backgroundColorMenu:  Color.fromARGB(255, 221, 151, 233),
+      backgroundColorMenu:  Colors.yellow,
       screens: pages,
       initPositionSelected: 0,
       slidePercent: 60,
