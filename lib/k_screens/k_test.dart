@@ -30,8 +30,8 @@ class _JobDescriptionState extends State<JobDescription> {
           titleSpacing: 0,
           leading: IconButton(
               onPressed: () {
-                Navigator.push(
-                    context, CupertinoPageRoute(builder: (_) => Job()));
+                // Navigator.push(
+                //     context, CupertinoPageRoute(builder: (_) => Job()));
               },
               icon: Icon(Icons.arrow_back_ios)),
           //Icon(Icons.arrow_back_ios),
