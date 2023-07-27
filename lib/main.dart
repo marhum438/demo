@@ -15,7 +15,7 @@ import 'package:project2/profile_screen.dart';
 import 'package:project2/profile_setting.dart';
 import 'package:project2/settingscreen.dart';
 
-import 'k_screens/hiddendrawer_screens/hiden_drawer.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
       // home: ProfileSetting(),
       // home: SettingScreen(),
 
-      home: Hiddendrawer(),
+    
 
     );
   }
