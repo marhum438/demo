@@ -10,6 +10,7 @@ import 'package:project2/favorite_screen.dart';
 import 'package:project2/increment.dart';
 import 'package:project2/myprofile.dart';
 import 'package:project2/newtask.dart';
+import 'package:project2/order_screen.dart';
 import 'package:project2/privacy_screen.dart';
 import 'package:project2/profile_screen.dart';
 import 'package:project2/profile_setting.dart';
@@ -43,6 +44,7 @@ class MyApp extends StatelessWidget {
       // home: ProfileScreen(),
       // home: ProfileSetting(),
       // home: SettingScreen(),
+      home: order_screen(),
 
     
 
