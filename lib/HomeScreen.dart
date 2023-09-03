@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:project2/demo.dart';
-import 'package:project2/settingscreen.dart';
+import 'package:to_do_project/demo.dart';
+import 'package:to_do_project/favorite_screen.dart';
+import 'package:to_do_project/settingscreen.dart';
 
-import 'package:project2/favorite_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

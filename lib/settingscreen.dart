@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:to_do_project/ContactUs.dart';
+import 'package:to_do_project/profile_screen.dart';
+import 'package:to_do_project/profile_setting.dart';
 
-import 'package:project2/ContactUs.dart';
-import 'package:project2/profile_setting.dart';
-import 'package:project2/profile_screen.dart';
 
 class SettingScreen extends StatelessWidget {
   const SettingScreen({super.key});
